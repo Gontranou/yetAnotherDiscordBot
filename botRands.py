@@ -1,5 +1,5 @@
 
-import discord #pour utiliser discord
+import discord
 import numpy as np
 import random
 from dotenv import load_dotenv #en test pour une "environment variable"
