@@ -286,6 +286,6 @@ async def on_message(message):
 
 load_dotenv('.env') #load l'environment variable dans '.env'
 # client.run(os.getenv('TOKEN'))
-client.run('') #insert token here
+client.run('') #need to insert the token here
 
 #merci d'avoir lu tous ces commentaires inutiles, j'écrirai peut-être un livre un jour avec tous ces commentaires...
