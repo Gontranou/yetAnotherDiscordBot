@@ -29,7 +29,7 @@ async def on_ready():
 
 @client.event 
 async def on_reaction_add(reaction, user): #quand une réaction arrive
-	if user.name == 'FAIT DES RANDS TOUT SEUL !!': #ne prend pas en compte ses propres réacitons
+	if user.name == 'New Horizons rands': #ne prend pas en compte ses propres réacitons
 		return
 
 	channel = reaction.message.channel #prend le channel dans lequel la réaction à lieu
